@@ -1,2 +1,2 @@
 # GDC
-demo sites for UNiversity of Texas Graphic Desig Certificate Program
+demo sites for University of Texas Graphic Desig Certificate Program
