@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,600,800&display=swap');
+html, body{height:100%;}
+body {
+            margin: 0;
+            font-family: "Raleway", sans-serif;
+			
+        }
+		#wrapper{
+			min-height:100%;
+			position:relative;
+
+			}
+
+h1 {
+            font-size: 6em;
+            margin: 0;
+            color: #fff;
+            font-weight: 100;
+}
+
+ #sidebar {
+            background-color: #00bccc;
+            background-image: linear-gradient(180deg, #00bccc 0%, #0e4c6d 100%);
+            width: 300px;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            padding-top: 25px;
+        }
+
+        #main {
+            margin-left: 320px;
+
+           padding-top: 25px;
+            padding-right: 50px;
+        }
+
+        nav a {
+            display: inline-block;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: 100;
+            border-width:1px;
+            border-style: solid;
+            border-color: rgba(255, 255, 255, 0);
+            width: 60%;
+            margin-left: 25px;
+            padding-left: 60px;
+            height: 50px;
+            line-height: 50px;
+            margin-bottom: 15px;
+            border-radius: 200px;
+            background-image: none;
+        }
+
+        #plane.active {
+            background-image: url(images/icon-airplane.svg);
+        }
+
+        #bed.active {
+            background-image: url(images/icon-bed.svg);
+        }
+
+        #camera.active {
+            background-image: url(images/icon-camera.svg);
+        }
+
+        nav a.active {
+            font-weight: 700;
+            background-color: #fff;
+            color: #00bccc;
+            background-repeat: no-repeat;
+            background-size: 40px;
+            background-position: 5px center;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            margin-bottom: .4em;
+        }
+
+        p {
+            margin-top: 0;
+        }
+
+#main img{max-width:100%;}
+
+nav a:hover{
+border-color: rgba(255, 255, 255, 1);
+}
+
+.two-columns{
+    column-count: 2;
+       
+        margin-top:1em;
+    }
+    
+    .two-columns a{display:block; margin-bottom: 1em;}

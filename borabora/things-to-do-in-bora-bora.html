@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>A South Pacific Paradise</title>
+    <link href="palmtree.ico" rel="shortcut icon" />
+    <meta name="author" content="Greg Hervey" />
+    <meta name="keywords" content="Bora Bora, Tahiti, Polynesia, south pacific" />
+ <meta name="viewport" content="width=device-width, intial-scale=1"/>
+    <link href="BBstyles.css" rel="stylesheet" />
+        <link href="responsiveMenu.css" rel="stylesheet" />
+    <script src="responsiveMenu.js"></script>
+    <link href="lightbox/dist/css/lightbox.css" rel="stylesheet" />
+    
+    
+    <style>
+        #gallery {
+            display:flex;
+            flex-wrap:wrap;
+         
+           justify-content: center;
+        }
+
+        #gallery a{
+            flex-grow:1;
+             flex-basis:250px; 
+           
+           
+            max-width:450px;
+             margin: 2px;
+            display:inline-block;
+        }
+        
+        #gallery img {
+            
+  max-width: 100%;
+        }
+
+        video {
+            max-width: 100%;
+            margin-bottom:1em;
+        }
+        
+       
+
+    </style>
+</head>
+
+<body>
+<div id="wrapper">
+    <div id="sidebar">
+<nav>
+        <a href="index.html">HOME</a>
+        <a href="getting-to-bora-bora.html" id="plane">Getting there</a>
+        <a href="where-to-stay-in-bora-bora.html" id="bed" >Where to stay</a>
+        <a href="things-to-do-in-bora-bora.html" id="camera"  class="active">Things to do</a>
+     <a href="javascript:void(0);" class="responsiveMenuIcon" onclick="responsiveMenu()">
+  &#9776;
+  </a>
+</nav>
+    </div>
+
+
+    <div id="main">
+
+        <video controls poster="videos/ukelele.jpg">
+            <source src="videos/ukelele.mp4" type="video/mp4"/>
+            <source src="videos/ukelele.webm" type="video/webm"/>
+        </video>
+      
+        <div id="gallery">
+           
+            <a href="images/gallery/boat.jpg" data-lightbox="bb" data-title="Listening to ukelele on a day trip"> <img src="images/gallery/boat.jpg" title="Boating and water sports"  /></a>
+             <a href="images/gallery/flowers.jpg" data-lightbox="bb" data-title="Biking around the island affords wonderful views"><img src="images/gallery/flowers.jpg" title="Hike and bike"  /></a>
+             <a href="images/gallery/palm-trees.jpg" data-lightbox="bb" data-title="It's tough to find a bad beach in Bora Bora"><img src="images/gallery/palm-trees.jpg" title="Relax at the beach"  /></a>
+             <a href="images/gallery/stingray.jpg" data-lightbox="bb" data-title="Shark and ray feeding day trips are popular"><img src="images/gallery/stingray.jpg" title="Swim with sharks"   /></a>
+             <a href="images/gallery/tikis.jpg" data-lightbox="bb" data-title="Tikis overlooking the huge lagoon"><img src="images/gallery/tikis.jpg" title="Discover Polynesian culture"   /></a>
+            <a href="images/gallery/underwater.jpg" data-lightbox="bb"  data-title="Some of the best snorkeling in the world"> <img src="images/gallery/underwater.jpg" title="Snorkel and dive"  /></a>
+
+        </div>
+
+    </div></div>
+   <script src="lightbox/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>
